@@ -1,0 +1,5 @@
+.navbar-star {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
