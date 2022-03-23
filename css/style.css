@@ -3,3 +3,7 @@
   flex-direction: row;
   margin: auto;
 }
+
+.navbar-star a {
+  color: #ffffff;
+}
