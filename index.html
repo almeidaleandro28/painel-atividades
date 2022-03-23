@@ -9,20 +9,33 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <!-- style css -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>painel atividades</title>
 </head>
 <body>
-  <header class=" ">
+  <header>
     <div class="container">
-      <nav class="navbar has-background-black-ter">
+      <nav class="navbar has-background-black-ter is-spaced">
 
-        <div class="navbar-menu">
-          <div class="navbar-star is-uppercase">
+        <div class="navbar-brand">
+
+          <a role="button" id="burger" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a><!-- end munu-burge -->
+      
+        </div><!-- end navbar-brand -->
+
+        <div class="navbar-menu is-justify-content-center is-uppercase" id="nav-links">
+          
             <a class="navbar-item" href="index.html">home</a>
             <a class="navbar-item" href="#main">main</a>
             <a class="navbar-item" href="#activities">atividades</a>
             <a class="navbar-item" href="#contacts">constacts</a>
-          </div><!-- end navbar-star -->
+          
         </div><!-- end navbar-menu -->
 
       </nav><!-- end nav -->
@@ -136,7 +149,11 @@
   <footer id="contacts">
     <div class="content has-text-centered">
       <p>leandro almeida da silva</p>
+      <span class="icon is-large">
+        <ion-icon name="logo-github" size="large"></ion-icon>
+      </span>
     </div>
   </footer><!-- end footer -->
+<script src="./js/navbar.js"></script>
 </body>
 </html>
